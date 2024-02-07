@@ -1,11 +1,25 @@
 # ES1 - Testes Unitarios 
 
-A aplicação consiste em um conjunto de classes Python que representam diferentes formas geométricas (Círculo, Retângulo, Triângulo e Hexágono), cada uma com métodos para calcular a área ou o perímetro da forma correspondente.
-Além disso, a aplicação inclui testes automatizados para verificar se os cálculos de área e perímetro estão corretos para cada forma geométrica. Esses testes são realizados usando a biblioteca pytest, que permite testar se os resultados obtidos estão corretos utilizando assert e utilizando pytest.approx() para cálculos que envolvem ponto flutuante.
+Este projeto consiste em um conjunto de classes Python que representam diferentes formas geométricas: Círculo, Retângulo, Triângulo e Hexágono. Cada classe possui métodos para calcular a área ou o perímetro da forma correspondente. Além disso, inclui testes automatizados para verificar a precisão dos cálculos de área e perímetro para cada forma geométrica.
 
-Para a execução dos testes, Python e Pytest devem estar instalados.
+## Funcionalidades
 
-Para a execução dos testes, basta navegar ao diretório do projeto onde os arquivos estão localizados e executar no terminal o comando 
-```
-  pytest
-```
+- Cálculo de área e perímetro para Círculo, Retângulo, Triângulo e Hexágono.
+- Testes automatizados para validar os cálculos.
+
+## Requisitos
+
+- Python
+- Pytest
+
+## Execução dos Testes
+
+Para executar os testes, siga estas etapas:
+
+1. Certifique-se de que Python e Pytest estão instalados em seu sistema.
+2. Navegue até o diretório do projeto no terminal.
+3. Execute o seguinte comando:
+
+```pytest```
+
+Isso executará todos os testes automatizados e exibirá os resultados no terminal. 
