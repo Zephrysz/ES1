@@ -5,4 +5,7 @@ Além disso, a aplicação inclui testes automatizados para verificar se os cál
 
 Para a execução dos testes, Python e Pytest devem estar instalados.
 
-Para a execução dos testes, basta navegar ao diretório do projeto onde os arquivos estão localizados e executar no terminal o comando 'pytest' 
+Para a execução dos testes, basta navegar ao diretório do projeto onde os arquivos estão localizados e executar no terminal o comando 
+```
+  pytest
+```
